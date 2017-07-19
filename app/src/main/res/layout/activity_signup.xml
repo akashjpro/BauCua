@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/profilePicTxt"
+        android:textSize="170sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="H"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <FrameLayout
+        android:background="#ede7e7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/activity_login"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="10dp">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/containName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#a8a8ab">
+
+                    <EditText
+                        android:id="@+id/editTextName"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/custom_edt_login"
+                        android:hint="Nhập tên"
+                        android:inputType="textEmailAddress" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/containEmailSignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="#a8a8ab">
+
+                    <EditText
+                        android:id="@+id/editTextEamilSignup"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/custom_edt_login"
+                        android:hint="Nhập email"
+                        android:inputType="textEmailAddress" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/containPasswordSignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="#a8a8ab">
+
+                    <EditText
+                        android:id="@+id/editTextPasswordSignup"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/custom_edt_login"
+                        android:hint="Nhập mật khẩu"
+                        android:inputType="textPassword" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/buttonSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button_facebook"
+                    android:text="Đăng ký"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+</FrameLayout>
+
+

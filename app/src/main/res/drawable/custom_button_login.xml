@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    //You can change the color of the edit text here which removes the border line as well
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#cad632"
+                android:centerColor="#eeff00"
+                android:endColor="#bfcc0b"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="#FFFFFF" />
+            <corners
+                android:radius="60dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#b9c123"
+                android:centerColor="#bcae17"
+                android:endColor="#89891a"
+                android:angle="225" />
+            <stroke
+                android:width="0dp"
+                android:color="#000000" />
+            <corners
+                android:radius="60dp" />
+        </shape>
+    </item>
+</selector>

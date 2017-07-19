@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BauCua</string>
+
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="create_account"><u>Create new account</u></string>
+
+    <string name="facebook_app_id">763443820483066</string>
+    <string name="fb_login_protocol_scheme">fb763443820483066</string>
+</resources>

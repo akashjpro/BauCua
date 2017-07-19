@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1095308790534",
+    "firebase_url": "https://baucua-8f006.firebaseio.com",
+    "project_id": "baucua-8f006",
+    "storage_bucket": "baucua-8f006.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095308790534:android:594fe03533cc09d3",
+        "android_client_info": {
+          "package_name": "com.example.tmha.baucua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095308790534-i6bjjfn51toehps8uhpmkddg47lcqir9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tmha.baucua",
+            "certificate_hash": "b5379df51dac01d8766f6ceea2f4b33f4c861a0b"
+          }
+        },
+        {
+          "client_id": "1095308790534-igmf8l0hmsfluradq6ht9da8ov83rptl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd3MvN-qTTHnv1JjzjIzV7js9RPDZKez8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095308790534-igmf8l0hmsfluradq6ht9da8ov83rptl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
